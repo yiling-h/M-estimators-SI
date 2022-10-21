@@ -1,0 +1,11 @@
+cython
+numpy
+scipy
+pandas
+mpmath
+pyinter
+sklearn
+regreg
+# keras
+# tensorflow
+traitlets

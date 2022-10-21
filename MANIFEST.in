@@ -1,0 +1,11 @@
+include AUTHOR LICENSE Makefile* MANIFEST.in setup* README.*
+include Changelog TODO
+recursive-include doc *
+recursive-include tools *
+# setup utilities
+include setup_helpers.py
+include cythexts.py
+recursive-include fake_pyrex *
+include versioneer.py
+include selection/_version.py
+include C-software/src/*.h
